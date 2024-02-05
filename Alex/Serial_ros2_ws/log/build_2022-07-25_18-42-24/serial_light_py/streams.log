@@ -1,0 +1,30 @@
+[1.890s] Invoking command in '/home/nvidia/Desktop/Serial_ros2_ws/src/serial_light_py': PYTHONPATH=/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_light_py build --build-base /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build install --prefix /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py --record /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/install.log --single-version-externally-managed
+[3.586s] running egg_info
+[3.591s] writing ../../build/serial_light_py/serial_light_py.egg-info/PKG-INFO
+[3.592s] writing dependency_links to ../../build/serial_light_py/serial_light_py.egg-info/dependency_links.txt
+[3.593s] writing entry points to ../../build/serial_light_py/serial_light_py.egg-info/entry_points.txt
+[3.594s] writing requirements to ../../build/serial_light_py/serial_light_py.egg-info/requires.txt
+[3.594s] writing top-level names to ../../build/serial_light_py/serial_light_py.egg-info/top_level.txt
+[3.755s] reading manifest file '../../build/serial_light_py/serial_light_py.egg-info/SOURCES.txt'
+[3.761s] writing manifest file '../../build/serial_light_py/serial_light_py.egg-info/SOURCES.txt'
+[3.762s] running build
+[3.762s] running build_py
+[3.763s] copying serial_light_py/py_pub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py
+[3.766s] running install
+[3.768s] running install_lib
+[3.773s] copying /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py/py_pub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py
+[3.777s] byte-compiling /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/py_pub_data.py to py_pub_data.cpython-36.pyc
+[3.778s]   File "/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/py_pub_data.py", line 19
+[3.778s]     self.get_logger().info('Sending - Angular Position : %f' % (message..angular.z))
+[3.779s]                                                                         ^
+[3.779s] SyntaxError: invalid syntax
+[3.779s] 
+[3.780s] running install_data
+[3.781s] running install_egg_info
+[3.790s] removing '/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py-0.0.0-py3.6.egg-info' (and everything under it)
+[3.792s] Copying ../../build/serial_light_py/serial_light_py.egg-info to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py-0.0.0-py3.6.egg-info
+[3.799s] running install_scripts
+[3.882s] Installing py_pub_data script to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/serial_light_py
+[3.883s] Installing py_sub_data script to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/serial_light_py
+[3.885s] writing list of installed files to '/home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/install.log'
+[3.995s] Invoked command in '/home/nvidia/Desktop/Serial_ros2_ws/src/serial_light_py' returned '0': PYTHONPATH=/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_light_py build --build-base /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build install --prefix /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py --record /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/install.log --single-version-externally-managed

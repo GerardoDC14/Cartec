@@ -1,0 +1,33 @@
+[1.907s] Invoking command in '/home/nvidia/Desktop/Serial_ros2_ws/src/serial_light_py': PYTHONPATH=/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_light_py build --build-base /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build install --prefix /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py --record /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/install.log --single-version-externally-managed
+[3.608s] running egg_info
+[3.613s] writing ../../build/serial_light_py/serial_light_py.egg-info/PKG-INFO
+[3.615s] writing dependency_links to ../../build/serial_light_py/serial_light_py.egg-info/dependency_links.txt
+[3.615s] writing entry points to ../../build/serial_light_py/serial_light_py.egg-info/entry_points.txt
+[3.616s] writing requirements to ../../build/serial_light_py/serial_light_py.egg-info/requires.txt
+[3.617s] writing top-level names to ../../build/serial_light_py/serial_light_py.egg-info/top_level.txt
+[3.778s] reading manifest file '../../build/serial_light_py/serial_light_py.egg-info/SOURCES.txt'
+[3.786s] writing manifest file '../../build/serial_light_py/serial_light_py.egg-info/SOURCES.txt'
+[3.786s] running build
+[3.787s] running build_py
+[3.787s] copying serial_light_py/py_pub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py
+[3.789s] copying serial_light_py/py_sub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py
+[3.790s] running install
+[3.792s] running install_lib
+[3.796s] copying /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py/py_pub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py
+[3.798s] copying /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py/py_sub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py
+[3.801s] byte-compiling /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/py_pub_data.py to py_pub_data.cpython-36.pyc
+[3.802s]   File "/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/py_pub_data.py", line 19
+[3.802s]     self.get_logger().info('Sending - Angular Position : %f' % (message..angular.z))
+[3.803s]                                                                         ^
+[3.803s] SyntaxError: invalid syntax
+[3.803s] 
+[3.804s] byte-compiling /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/py_sub_data.py to py_sub_data.cpython-36.pyc
+[3.805s] running install_data
+[3.808s] running install_egg_info
+[3.817s] removing '/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py-0.0.0-py3.6.egg-info' (and everything under it)
+[3.819s] Copying ../../build/serial_light_py/serial_light_py.egg-info to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py-0.0.0-py3.6.egg-info
+[3.826s] running install_scripts
+[3.909s] Installing py_pub_data script to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/serial_light_py
+[3.910s] Installing py_sub_data script to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/serial_light_py
+[3.912s] writing list of installed files to '/home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/install.log'
+[4.025s] Invoked command in '/home/nvidia/Desktop/Serial_ros2_ws/src/serial_light_py' returned '0': PYTHONPATH=/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_light_py build --build-base /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build install --prefix /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py --record /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/install.log --single-version-externally-managed

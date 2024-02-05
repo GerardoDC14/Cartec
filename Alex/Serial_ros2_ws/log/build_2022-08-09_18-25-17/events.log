@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.006771] (serial_light_py) JobQueued: {'identifier': 'serial_light_py', 'dependencies': OrderedDict()}
+[0.007691] (serial_light_py) JobStarted: {'identifier': 'serial_light_py'}
+[0.097130] (-) TimerEvent: {}
+[0.199288] (-) TimerEvent: {}
+[0.300290] (-) TimerEvent: {}
+[0.401810] (-) TimerEvent: {}
+[0.503844] (-) TimerEvent: {}
+[0.605731] (-) TimerEvent: {}
+[0.707838] (-) TimerEvent: {}
+[0.809709] (-) TimerEvent: {}
+[0.911177] (-) TimerEvent: {}
+[1.012629] (-) TimerEvent: {}
+[1.114679] (-) TimerEvent: {}
+[1.216745] (-) TimerEvent: {}
+[1.318802] (-) TimerEvent: {}
+[1.420754] (-) TimerEvent: {}
+[1.522669] (-) TimerEvent: {}
+[1.624441] (-) TimerEvent: {}
+[1.726536] (-) TimerEvent: {}
+[1.828664] (-) TimerEvent: {}
+[1.930834] (-) TimerEvent: {}
+[2.031949] (-) TimerEvent: {}
+[2.133029] (-) TimerEvent: {}
+[2.234386] (-) TimerEvent: {}
+[2.336855] (-) TimerEvent: {}
+[2.438862] (-) TimerEvent: {}
+[2.540413] (-) TimerEvent: {}
+[2.641707] (-) TimerEvent: {}
+[2.743123] (-) TimerEvent: {}
+[2.844476] (-) TimerEvent: {}
+[2.945707] (-) TimerEvent: {}
+[3.046809] (-) TimerEvent: {}
+[3.148499] (-) TimerEvent: {}
+[3.250071] (-) TimerEvent: {}
+[3.357014] (-) TimerEvent: {}
+[3.429996] (serial_light_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_light_py', 'build', '--build-base', '/home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build', 'install', '--prefix', '/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py', '--record', '/home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/nvidia/Desktop/Serial_ros2_ws/src/serial_light_py', 'env': {'JETSON_BOARD': 'UNKNOWN', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'JETSON_TYPE': 'TX2', 'UNITY_DEFAULT_PROFILE': 'unity', 'GTK_CSD': '0', 'USER': 'nvidia', 'UNITY_HAS_3D_SUPPORT': 'true', 'LC_TIME': 'es_MX.UTF-8', 'TEXTDOMAIN': 'im-config', 'JETSON_CUDA': '10.2.89', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GNOME_SESSION_XDG_SESSION_PATH': '', 'LD_LIBRARY_PATH': '/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/zed_components/lib:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/zed_interfaces/lib:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/tl_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/cuda-10.2/lib64:', 'SHLVL': '2', 'OLDPWD': '/home/nvidia', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/nvidia', 'DESKTOP_SESSION': 'unity', 'JETSON_L4T': '32.5.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'JETSON_TENSORRT': '7.1.3.0', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'es_MX.UTF-8', 'MANAGERPID': '6582', 'JETSON_VISIONWORKS': '1.6.0.501', 'JETSON_OPENCV_CUDA': 'NO', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '24', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11989', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator20x1a6021154d881c', '_colcon_cd_root': '/home/nvidia/ros2_install', 'MANDATORY_PATH': '/usr/share/gconf/unity.mandatory.path', 'COLCON_PREFIX_PATH': '/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'nvidia', 'GTK_IM_MODULE': 'ibus', 'JOURNAL_STREAM': '8:37861', 'JETSON_SERIAL_NUMBER': '0324217126785', 'JETSON_MODULE': 'P3310-1000', 'JETSON_CUDNN': '8.0.0.180', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/unity.default.path', 'JETSON_CODENAME': 'quill', 'ROS_VERSION': '2', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '1', 'PATH': '/opt/ros/eloquent/bin:/usr/local/cuda-10.2/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': '2513f7355d9244dd95fb199a2b15fb1a', 'JETSON_OPENCV': '4.1.1', 'SESSION_MANAGER': 'local/nvidia-desktop:@/tmp/.ICE-unix/7690,unix/nvidia-desktop:/tmp/.ICE-unix/7690', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'COMPIZ_BIN_PATH': '/usr/bin/', 'LANG': 'en_US.UTF-8', 'JETSON_MACHINE': 'NVIDIA Jetson TX2', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'JETSON_L4T_REVISION': '5.1', 'XDG_CURRENT_DESKTOP': 'Unity:Unity7:ubuntu', 'LC_TELEPHONE': 'es_MX.UTF-8', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra186', 'XDG_SESSION_DESKTOP': 'unity', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/zed_ros2:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/zed_wrapper:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/zed_components:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/zed_interfaces:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/tl_perception:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/tl_interfaces:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'TERMINATOR_UUID': 'urn:uuid:fe54a184-06ac-496c-b287-3568a2cc0a77', 'LC_NAME': 'es_MX.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'unity', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '3310:0000:A0', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'JETSON_L4T_RELEASE': '32', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'JETSON_VULKAN_INFO': '1.2.70', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '6.2', 'PWD': '/home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-unity:/etc/xdg', 'LC_NUMERIC': 'es_MX.UTF-8', 'PYTHONPATH': '/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/zed_interfaces/lib/python3.6/site-packages:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/tl_perception/lib/python3.6/site-packages:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/tl_interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'JETSON_VPI': 'ii libnvvpi1 1.0.15 arm64 NVIDIA Vision Programming Interface library', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.5.1', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/zed_ros2:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/zed_wrapper:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/zed_components:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/zed_interfaces:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/tl_perception:/home/nvidia/Desktop/cartec/EBDASTL/dev_ws/install/tl_interfaces'}, 'shell': False}
+[3.457999] (-) TimerEvent: {}
+[3.565282] (-) TimerEvent: {}
+[3.666733] (-) TimerEvent: {}
+[3.767798] (-) TimerEvent: {}
+[3.869983] (-) TimerEvent: {}
+[3.971401] (-) TimerEvent: {}
+[4.072906] (-) TimerEvent: {}
+[4.174291] (-) TimerEvent: {}
+[4.275717] (-) TimerEvent: {}
+[4.377721] (-) TimerEvent: {}
+[4.479107] (-) TimerEvent: {}
+[4.584445] (-) TimerEvent: {}
+[4.685689] (-) TimerEvent: {}
+[4.788089] (-) TimerEvent: {}
+[4.889874] (-) TimerEvent: {}
+[4.992694] (-) TimerEvent: {}
+[5.095910] (-) TimerEvent: {}
+[5.196916] (-) TimerEvent: {}
+[5.297859] (-) TimerEvent: {}
+[5.399006] (-) TimerEvent: {}
+[5.500222] (-) TimerEvent: {}
+[5.602847] (-) TimerEvent: {}
+[5.704908] (-) TimerEvent: {}
+[5.807458] (-) TimerEvent: {}
+[5.909486] (-) TimerEvent: {}
+[6.011613] (-) TimerEvent: {}
+[6.113594] (-) TimerEvent: {}
+[6.215740] (-) TimerEvent: {}
+[6.317699] (-) TimerEvent: {}
+[6.419880] (-) TimerEvent: {}
+[6.486495] (serial_light_py) StdoutLine: {'line': b'running egg_info\n'}
+[6.494800] (serial_light_py) StdoutLine: {'line': b'writing ../../build/serial_light_py/serial_light_py.egg-info/PKG-INFO\n'}
+[6.498453] (serial_light_py) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_light_py/serial_light_py.egg-info/dependency_links.txt\n'}
+[6.500435] (serial_light_py) StdoutLine: {'line': b'writing entry points to ../../build/serial_light_py/serial_light_py.egg-info/entry_points.txt\n'}
+[6.501591] (serial_light_py) StdoutLine: {'line': b'writing requirements to ../../build/serial_light_py/serial_light_py.egg-info/requires.txt\n'}
+[6.502694] (serial_light_py) StdoutLine: {'line': b'writing top-level names to ../../build/serial_light_py/serial_light_py.egg-info/top_level.txt\n'}
+[6.520214] (-) TimerEvent: {}
+[6.621780] (-) TimerEvent: {}
+[6.723517] (-) TimerEvent: {}
+[6.825405] (-) TimerEvent: {}
+[6.853626] (serial_light_py) StdoutLine: {'line': b"reading manifest file '../../build/serial_light_py/serial_light_py.egg-info/SOURCES.txt'\n"}
+[6.868863] (serial_light_py) StdoutLine: {'line': b"writing manifest file '../../build/serial_light_py/serial_light_py.egg-info/SOURCES.txt'\n"}
+[6.871593] (serial_light_py) StdoutLine: {'line': b'running build\n'}
+[6.873895] (serial_light_py) StdoutLine: {'line': b'running build_py\n'}
+[6.875755] (serial_light_py) StdoutLine: {'line': b'copying serial_light_py/py_sub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py\n'}
+[6.877346] (serial_light_py) StdoutLine: {'line': b'running install\n'}
+[6.878896] (serial_light_py) StdoutLine: {'line': b'running install_lib\n'}
+[6.883148] (serial_light_py) StdoutLine: {'line': b'copying /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py/py_sub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py\n'}
+[6.888372] (serial_light_py) StdoutLine: {'line': b'byte-compiling /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/py_sub_data.py to py_sub_data.cpython-36.pyc\n'}
+[6.891186] (serial_light_py) StdoutLine: {'line': b'running install_data\n'}
+[6.895772] (serial_light_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.909654] (serial_light_py) StdoutLine: {'line': b"removing '/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[6.911912] (serial_light_py) StdoutLine: {'line': b'Copying ../../build/serial_light_py/serial_light_py.egg-info to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py-0.0.0-py3.6.egg-info\n'}
+[6.921615] (serial_light_py) StdoutLine: {'line': b'running install_scripts\n'}
+[6.925571] (-) TimerEvent: {}
+[7.027194] (-) TimerEvent: {}
+[7.061672] (serial_light_py) StdoutLine: {'line': b'Installing py_pub_data script to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/serial_light_py\n'}
+[7.064809] (serial_light_py) StdoutLine: {'line': b'Installing py_sub_data script to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/serial_light_py\n'}
+[7.066994] (serial_light_py) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/install.log'\n"}
+[7.127534] (-) TimerEvent: {}
+[7.183148] (serial_light_py) CommandEnded: {'returncode': 0}
+[7.227744] (-) TimerEvent: {}
+[7.335737] (-) TimerEvent: {}
+[7.364505] (serial_light_py) JobEnded: {'identifier': 'serial_light_py', 'rc': 0}
+[7.373952] (-) EventReactorShutdown: {}

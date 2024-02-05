@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/serial_light_py/serial_light_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/serial_light_py/serial_light_py.egg-info/dependency_links.txt
+writing entry points to ../../build/serial_light_py/serial_light_py.egg-info/entry_points.txt
+writing requirements to ../../build/serial_light_py/serial_light_py.egg-info/requires.txt
+writing top-level names to ../../build/serial_light_py/serial_light_py.egg-info/top_level.txt
+reading manifest file '../../build/serial_light_py/serial_light_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/serial_light_py/serial_light_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying serial_light_py/py_pub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py
+copying serial_light_py/py_sub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py
+running install
+running install_lib
+copying /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py/py_pub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py
+copying /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py/py_sub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py
+byte-compiling /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/py_pub_data.py to py_pub_data.cpython-36.pyc
+  File "/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/py_pub_data.py", line 19
+    self.get_logger().info('Sending - Angular Position : %f' % (message..angular.z))
+                                                                        ^
+SyntaxError: invalid syntax
+
+byte-compiling /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/py_sub_data.py to py_sub_data.cpython-36.pyc
+running install_data
+running install_egg_info
+removing '/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py-0.0.0-py3.6.egg-info' (and everything under it)
+Copying ../../build/serial_light_py/serial_light_py.egg-info to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py-0.0.0-py3.6.egg-info
+running install_scripts
+Installing py_pub_data script to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/serial_light_py
+Installing py_sub_data script to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/serial_light_py
+writing list of installed files to '/home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/install.log'

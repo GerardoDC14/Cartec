@@ -1,0 +1,5 @@
+  File "/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/py_pub_data.py", line 19
+    self.get_logger().info('Sending - Angular Position : %f' % (message..angular.z))
+                                                                        ^
+SyntaxError: invalid syntax
+

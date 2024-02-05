@@ -1,0 +1,4 @@
+[console_scripts]
+py_pub_data = serial_light_py.py_pub_data:main
+py_sub_data = serial_light_py.py_sub_data:main
+

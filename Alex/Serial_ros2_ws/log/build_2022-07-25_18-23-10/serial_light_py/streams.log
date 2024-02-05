@@ -1,0 +1,41 @@
+[1.785s] Invoking command in '/home/nvidia/Desktop/Serial_ros2_ws/src/serial_light_py': PYTHONPATH=/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_light_py build --build-base /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build install --prefix /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py --record /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/install.log --single-version-externally-managed
+[3.442s] running egg_info
+[3.445s] creating ../../build/serial_light_py/serial_light_py.egg-info
+[3.447s] writing ../../build/serial_light_py/serial_light_py.egg-info/PKG-INFO
+[3.448s] writing dependency_links to ../../build/serial_light_py/serial_light_py.egg-info/dependency_links.txt
+[3.449s] writing entry points to ../../build/serial_light_py/serial_light_py.egg-info/entry_points.txt
+[3.450s] writing requirements to ../../build/serial_light_py/serial_light_py.egg-info/requires.txt
+[3.451s] writing top-level names to ../../build/serial_light_py/serial_light_py.egg-info/top_level.txt
+[3.467s] writing manifest file '../../build/serial_light_py/serial_light_py.egg-info/SOURCES.txt'
+[3.637s] reading manifest file '../../build/serial_light_py/serial_light_py.egg-info/SOURCES.txt'
+[3.643s] writing manifest file '../../build/serial_light_py/serial_light_py.egg-info/SOURCES.txt'
+[3.644s] running build
+[3.645s] running build_py
+[3.645s] creating /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build
+[3.646s] creating /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib
+[3.647s] creating /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py
+[3.647s] copying serial_light_py/py_pub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py
+[3.648s] copying serial_light_py/__init__.py -> /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py
+[3.649s] copying serial_light_py/py_sub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py
+[3.649s] running install
+[3.651s] running install_lib
+[3.660s] creating /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py
+[3.661s] copying /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py/py_pub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py
+[3.661s] copying /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py/__init__.py -> /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py
+[3.661s] copying /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build/lib/serial_light_py/py_sub_data.py -> /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py
+[3.662s] byte-compiling /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/py_pub_data.py to py_pub_data.cpython-36.pyc
+[3.665s] byte-compiling /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/__init__.py to __init__.cpython-36.pyc
+[3.667s] byte-compiling /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py/py_sub_data.py to py_sub_data.cpython-36.pyc
+[3.669s] running install_data
+[3.674s] creating /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/share/ament_index
+[3.675s] creating /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/share/ament_index/resource_index
+[3.675s] creating /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/share/ament_index/resource_index/packages
+[3.676s] copying resource/serial_light_py -> /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/share/ament_index/resource_index/packages
+[3.676s] copying package.xml -> /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/share/serial_light_py
+[3.677s] running install_egg_info
+[3.688s] Copying ../../build/serial_light_py/serial_light_py.egg-info to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages/serial_light_py-0.0.0-py3.6.egg-info
+[3.695s] running install_scripts
+[3.792s] Installing py_pub_data script to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/serial_light_py
+[3.793s] Installing py_sub_data script to /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/serial_light_py
+[3.794s] writing list of installed files to '/home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/install.log'
+[3.906s] Invoked command in '/home/nvidia/Desktop/Serial_ros2_ws/src/serial_light_py' returned '0': PYTHONPATH=/home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_light_py build --build-base /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/build install --prefix /home/nvidia/Desktop/Serial_ros2_ws/install/serial_light_py --record /home/nvidia/Desktop/Serial_ros2_ws/build/serial_light_py/install.log --single-version-externally-managed
